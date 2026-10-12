@@ -1,0 +1,5 @@
+{
+  "name": "nyan-code",
+  "owner": { "name": "damir" },
+  "plugins": [{ "name": "nyan-pixel", "source": "./" }]
+}

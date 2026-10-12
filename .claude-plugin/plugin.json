@@ -1,0 +1,69 @@
+{
+  "name": "nyan-pixel",
+  "version": "0.9.0",
+  "description": "Pixel nyan cat flying in a thin band above the prompt; reacts to errors, tests, commits, edits, skills, the advisor, agents, interrupts, /clear, permissions, context and time of day",
+  "userConfig": {
+    "height": {
+      "type": "string",
+      "title": "Band height",
+      "description": "Rows of the terminal the band takes.",
+      "default": "4",
+      "options": [
+        "4",
+        "5"
+      ]
+    },
+    "fps": {
+      "type": "string",
+      "title": "Frames per second",
+      "description": "10 halves the work the animation does.",
+      "default": "20",
+      "options": [
+        "20",
+        "10"
+      ]
+    },
+    "visitors": {
+      "type": "string",
+      "title": "Visitors",
+      "description": "How often a UFO, tac nayn or a flock of birds flies by.",
+      "default": "normal",
+      "options": [
+        "normal",
+        "rare",
+        "often",
+        "off"
+      ]
+    },
+    "fridayDisco": {
+      "type": "boolean",
+      "title": "Friday disco",
+      "description": "Disco sky on Friday from 15:00.",
+      "default": true
+    },
+    "holidays": {
+      "type": "boolean",
+      "title": "Holidays",
+      "description": "Confetti on New Year's Day and your birthday, a Santa hat and snow at Christmas, Halloween colours and bats.",
+      "default": true
+    },
+    "idleMinutes": {
+      "type": "string",
+      "title": "Nap after",
+      "description": "Minutes with nothing happening before the cat naps on a cloud and the band slows to two frames a second.",
+      "default": "5",
+      "options": [
+        "3",
+        "5",
+        "10",
+        "off"
+      ]
+    },
+    "birthday": {
+      "type": "string",
+      "title": "Birthday",
+      "description": "Your birthday as MM-DD, for a party hat and confetti. Empty: none.",
+      "default": ""
+    }
+  }
+}
